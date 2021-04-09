@@ -1,0 +1,35 @@
+.header
+{
+    display:flex;
+    position: fixed;
+    top:0;
+    background-color: transparent;
+    background: none;;
+    z-index: 100;;
+    margin:15px;
+    width:100vw;
+
+}
+.header__logo{
+    width:100px;
+    height:24px;
+    margin-top:7px;
+}
+.header__center{
+    display:flex;
+    flex:1;
+    justify-content: center;;
+}
+.header__center>p{
+    margin:10px;
+    text-transform: uppercase;
+
+}
+.header__right{
+    display: flex;
+    justify-content: flex-end;
+    text-transform:uppercase;
+}
+.header__right>p{
+    margin:10px;
+}

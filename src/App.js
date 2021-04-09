@@ -6,11 +6,6 @@ function App() {
 
 
      <Header />
-     hello
-     {/* item snapping */}
-     {/* item snapping */}
-     {/* item snapping */}
-     {/* item snapping */}
      
      
      
