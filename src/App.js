@@ -1,4 +1,5 @@
-import Header from "./components/Header"
+import Header from './components/Header'
+import './App.css'
 import Accessories from './assets/Desktop-Accessories.jpg'
 import ModelS from './assets/Desktop-ModelS.jpeg'
 import Model3 from './assets/Desktop-Model3.jpeg'
@@ -10,9 +11,6 @@ import Item from './components/Item';
 function App() {
   return (
     <div >
-
-
-
       <Header />
       <div className="app__itemsContainer" >
         <Item
@@ -28,7 +26,7 @@ function App() {
           first />
         <Item
           title="Model S"
-          desc="$69,420"
+          desc="Order Online for Touchless Delivery"
           descLink=''
           backgroundImg={ModelS}
           leftBtnTxt="CUSTOM ORDER"
@@ -39,7 +37,7 @@ function App() {
         />
         <Item
           title="Model 3"
-          desc="Money-back guarantee"
+          desc="Order Online for Touchless Delivery"
           descLink=''
           backgroundImg={Model3}
           leftBtnTxt="CUSTOM ORDER"
@@ -50,7 +48,7 @@ function App() {
         />
         <Item
           title="Model X"
-          desc="Money-back guarantee"
+          desc="Order Online for Touchless Delivery"
           descLink=''
           backgroundImg={ModelX}
           leftBtnTxt="CUSTOM ORDER"
@@ -61,7 +59,7 @@ function App() {
         />
         <Item
           title="Model Y"
-          desc="Money-back guarantee"
+          desc="Order Online for Touchless Delivery"
           descLink=''
           backgroundImg={ModelY}
           leftBtnTxt="CUSTOM ORDER"
@@ -83,7 +81,6 @@ function App() {
         />
         <Item
           title="Accessories"
-          desc="Money-back guarantee"
           descLink=''
           backgroundImg={Accessories}
           leftBtnTxt="SHOP NOW"
@@ -92,12 +89,6 @@ function App() {
           rightBtnLink=''
         />
       </div>
-
-
-
-
-
-
     </div>
   );
 }
